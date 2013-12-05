@@ -18,11 +18,15 @@ if len(sys.argv) < 3:
 else:
 	dump = sys.argv[2]
 	
+# Validation Type
+vtype = 'HTML'
+	
+	
 # Specify a file path for storing results
 pt = '/'
 	
 # Create a filename to store the results in
-fn = 'W3C_Validator_Results_' + time.strftime('%m%d%y_%H%M%S') + '.txt'
+fn = 'W3C_Validator_Results_' + vtype + '_' + time.strftime('%m%d%y_%H%M%S') + '.txt'
 
 
 # Create validator object
