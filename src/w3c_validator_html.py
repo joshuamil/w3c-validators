@@ -19,7 +19,7 @@ else:
 	dump = sys.argv[2]
 	
 # Specify a file path for storing results
-pt = '~/Desktop/'
+pt = '/'
 	
 # Create a filename to store the results in
 fn = 'W3C_Validator_Results_' + time.strftime('%m%d%y_%H%M%S') + '.txt'
