@@ -7,7 +7,7 @@ import time, sys
 
 # Set the URL to validate
 if len(sys.argv) < 1:
-	url = 'http://www.nascar.com'
+	url = 'http://www.google.com'
 else:
 	url = sys.argv[1]
 	
@@ -19,7 +19,7 @@ else:
 	dump = sys.argv[2]
 	
 # Specify a file path for storing results
-pt = '/Users/jsmiller/Desktop/'
+pt = '/'
 	
 # Create a filename to store the results in
 fn = 'W3C_Validator_Results_' + time.strftime('%m%d%y_%H%M%S') + '.txt'
