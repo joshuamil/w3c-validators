@@ -1,0 +1,33 @@
+================================================================================
+W3C VALIDATOR RESULTS
+================================================================================
+URL:http://www.google.com
+Date/Time:Tue Mar 11 15:33:06 2014
+================================================================================
+Total Errors:23
+================================================================================
+Error Summary:
+================================================================================
+Line: 8 - The bgcolor attribute on the body element is obsolete. Use CSS instead.
+Line: 11 - Element nobr not allowed as child of element div in this context. (Suppressing further errors from this subtree.)
+Line: 11 - & did not start a character reference. (& probably should have been escaped as &amp;.)
+Line: 11 - & did not start a character reference. (& probably should have been escaped as &amp;.)
+Line: 11 - & did not start a character reference. (& probably should have been escaped as &amp;.)
+Line: 11 - & did not start a character reference. (& probably should have been escaped as &amp;.)
+Line: 11 - Attribute width not allowed on element div at this point.
+Line: 11 - Element nobr not allowed as child of element div in this context. (Suppressing further errors from this subtree.)
+Line: 11 - & did not start a character reference. (& probably should have been escaped as &amp;.)
+Line: 11 - The center element is obsolete. Use CSS instead.
+Line: 11 - The clear attribute on the br element is obsolete. Use CSS instead.
+Line: 11 - & did not start a character reference. (& probably should have been escaped as &amp;.)
+Line: 11 - The cellpadding attribute on the table element is obsolete. Use CSS instead.
+Line: 11 - The cellspacing attribute on the table element is obsolete. Use CSS instead.
+Line: 11 - The valign attribute on the tr element is obsolete. Use CSS instead.
+Line: 11 - The width attribute on the td element is obsolete. Use CSS instead.
+Line: 11 - The align attribute on the td element is obsolete. Use CSS instead.
+Line: 11 - The nowrap attribute on the td element is obsolete. Use CSS instead.
+Line: 11 - The align attribute on the td element is obsolete. Use CSS instead.
+Line: 11 - The nowrap attribute on the td element is obsolete. Use CSS instead.
+Line: 11 - The width attribute on the td element is obsolete. Use CSS instead.
+Line: 11 - Element div not allowed as child of element span in this context. (Suppressing further errors from this subtree.)
+Line: 11 - Element p not allowed as child of element span in this context. (Suppressing further errors from this subtree.)

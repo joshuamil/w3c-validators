@@ -23,10 +23,10 @@ vtype = 'HTML'
 	
 	
 # Specify a file path for storing results
-pt = '/'
+pt = '../target/'
 	
 # Create a filename to store the results in
-fn = 'W3C_Validator_Results_' + vtype + '_' + time.strftime('%m%d%y_%H%M%S') + '.txt'
+fn = 'Results_' + vtype + '_' + time.strftime('%m%d%y_%H%M%S') + '.txt'
 
 
 # Create validator object
@@ -49,12 +49,12 @@ res = ''
 res = ''.join([res,sep])
 res = '\n'.join([res,'W3C VALIDATOR RESULTS'])
 res = '\n'.join([res,sep])
-res = '\n'.join([res,'URL:' + url])
-res = '\n'.join([res,'Date/Time:' + time.strftime('%c')])
+res = '\n'.join([res,'URL: ' + url])
+res = '\n'.join([res,'Date/Time: ' + time.strftime('%c')])
 res = '\n'.join([res,sep])
-res = '\n'.join([res,'Total Errors:' + str(len(e))])
+res = '\n'.join([res,'Total Errors: ' + str(len(e))])
 res = '\n'.join([res,sep])
-res = '\n'.join([res,'Error Summary:'])
+res = '\n'.join([res,'Error Summary: '])
 res = '\n'.join([res,sep])
 
 # Itereate over each error item
